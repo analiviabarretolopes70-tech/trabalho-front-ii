@@ -17,12 +17,12 @@ export default function Header() {
       <div className={styles.logoContainer}>
         <Image 
           src="https://unsplash.com" 
-          alt="Logo Crepúsculo" 
+          alt="Crepúsculo" 
           width={50} 
           height={50} 
           className={styles.logo}
         />
-        <span className={styles.tituloLogo}>Twilight Wiki</span>
+        <span className={styles.tituloLogo}>A Saga Crepúsculo</span>
       </div>
 
       <button className={styles.botaoHamburguer} onClick={alternarMenu}>

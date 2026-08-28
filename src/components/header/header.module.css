@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #0d0d0d;
+  background-color: #967676;
   color: #fff;
-  border-bottom: 2px solid #b11226;
+  border-bottom: 2px solid #5e272f;
   position: relative;
   z-index: 10;
 }
@@ -50,7 +50,7 @@
 }
 
 .navegacao a:hover {
-  color: #b11226;
+  color: #5e272f;
 }
 
 @media (max-width: 600px) {
@@ -68,7 +68,7 @@
     background-color: #0d0d0d;
     padding: 1rem;
     box-sizing: border-box;
-    border-bottom: 2px solid #b11226;
+    border-bottom: 2px solid #5e272f;
   }
 
   .menuAtivo {
