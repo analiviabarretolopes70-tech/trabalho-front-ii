@@ -14,13 +14,13 @@ export default function RootLayout({ children }) {
         display: 'flex', 
         flexDirection: 'column', 
         minHeight: '100vh', 
-        backgroundColor: '#050505', 
+        backgroundColor: '#6e4747ff', 
         color: '#fff', 
         margin: 0, 
         fontFamily: 'Georgia, serif' 
       }}>
         <Header />
-        <main style={{ flex: 1, padding: '2rem' }}>
+        <main >
           {children}
         </main>
         <Footer />

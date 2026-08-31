@@ -1,7 +1,7 @@
 export default function SagasFinais() {
   return (
     <div>
-      <h1 style={{ color: '#b11226', borderBottom: '1px solid #222', paddingBottom: '0.5rem' }}>O Desfecho Épico</h1>
+      <h1 style={{ color: '#db7d89ff', borderBottom: '1px solid #222', paddingBottom: '0.5rem', textAlign: 'center'}}>O Desfecho Épico</h1>
       <p style={{ color: '#ccc', lineHeight: '1.6' }}>A conclusão da jornada humana de Bella e as consequências de suas escolhas eternas:</p>
       <ul style={{ lineHeight: '2' }}>
         <li><strong>Amanhecer - Parte 1 (2011):</strong> O casamento de Bella e Edward, seguido por uma gravidez híbrida perigosa que ameaça a sua vida.</li>
