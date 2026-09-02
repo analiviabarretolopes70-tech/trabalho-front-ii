@@ -1,0 +1,15 @@
+.titulo {
+  color: #db7d89ff;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.lista {
+  line-height: 2;
+}

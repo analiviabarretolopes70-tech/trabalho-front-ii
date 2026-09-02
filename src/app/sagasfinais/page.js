@@ -1,11 +1,14 @@
+import styles from './page.module.css';
+
 export default function SagasFinais() {
   return (
     <div>
-      <h1 style={{ color: '#db7d89ff', borderBottom: '1px solid #222', paddingBottom: '0.5rem', textAlign: 'center'}}>O Desfecho Épico</h1>
-      <p style={{ color: '#ccc', lineHeight: '1.6' }}>A conclusão da jornada humana de Bella e as consequências de suas escolhas eternas:</p>
-      <ul style={{ lineHeight: '2' }}>
-        <li><strong>Amanhecer - Parte 1 (2011):</strong> O casamento de Bella e Edward, seguido por uma gravidez híbrida perigosa que ameaça a sua vida.</li>
-        <li><strong>Amanhecer - Parte 2 (2012):</strong> Bella acorda transformada em vampira. Os Cullen reúnem clãs de todo o mundo para proteger sua filha, Renesmee, do julgamento dos Volturi.</li>
+      <h1 className={styles.titulo}>O Desfecho Épico</h1>
+      <p className={styles.subtitulo}>A conclusão da jornada humana de Bella e as consequências de suas escolhas eternas:</p>
+      
+      <ul className={styles.lista}>
+        <li><strong>Amanhecer - Parte 1 (2011):</strong> O casamento de Bella e Edward...</li>
+        <li><strong>Amanhecer - Parte 2 (2012):</strong> Bella acorda transformada em vampira...</li>
       </ul>
     </div>
   );
